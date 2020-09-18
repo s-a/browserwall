@@ -1,3 +1,8 @@
+[![NPM Version](http://img.shields.io/npm/v/browserwall.svg)](https://www.npmjs.org/package/browserwall)
+[![NPM Downloads](https://img.shields.io/npm/dm/browserwall.svg)](https://www.npmjs.org/package/browserwall)
+[![Massachusetts Institute of Technology (MIT)](https://s-a.github.io/license/img/mit.svg)](/LICENSE.md#mit)
+[![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
+
 # React Browser Wall Component
 
 
@@ -6,7 +11,7 @@ This component is based on [bowser](https://github.com/lancedikson/bowser) so `<
 ## Installation
 
 ```bash
-npm i @s-a/BrowserWall --save
+npm i browserwall --save
 ```
 
 ## Example 1
