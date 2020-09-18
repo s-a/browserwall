@@ -26,7 +26,7 @@ const supportedBrowserTree = {
 }
 const result = (
 	<ErrorBoundary>
-		<BrowserWall {...supportedBrowserTree} isValidBrowser={this.state.isValidBrowser}>
+		<BrowserWall {...supportedBrowserTree}>
 			<div className="App" valid="true">
 				{this.state.user ? null : <Redirect to={`/login${redirectUri}`}></Redirect>}
 				{this.renderApplicationCore()}

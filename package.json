@@ -1,6 +1,6 @@
 {
   "name": "browserwall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small, fast and rich-API browser/platform/engine detector for React.js.",
   "main": "lib/BrowserWall.js",
   "private": false,
@@ -40,7 +40,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/preset-env": "^7.11.5",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "bowser": "^2.11.0",
@@ -62,9 +62,7 @@
     "react-dom": "^16.13.1",
     "bowser": "^2.11.0"
   },
-  "dependencies": {
-    "@babel/preset-env": "^7.11.5"
-  },
+  "dependencies": {},
   "eslintConfig": {
     "extends": "react-app"
   }
