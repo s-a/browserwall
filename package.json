@@ -1,0 +1,71 @@
+{
+  "name": "browserwall",
+  "version": "1.0.0",
+  "description": "A small, fast and rich-API browser/platform/engine detector for React.js.",
+  "main": "lib/BrowserWall.js",
+  "private": false,
+  "scripts": {
+    "bump": "npm install && npm test && npm version patch && git push && git push --tags && npm publish --access public",
+    "eslint": "node node_modules/eslint/bin/eslint ./src/**/*",
+    "test": "npm run eslint",
+    "build": "npm test && webpack",
+    "b": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/BrowserWall"
+  },
+  "keywords": [
+    "browser",
+    "useragent",
+    "user-agent",
+    "parser",
+    "ua",
+    "detection",
+    "ender",
+    "sniff",
+    "react",
+    "react.js"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/BrowserWall/issues"
+  },
+  "homepage": "https://github.com/s-a/BrowserWall#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bowser": "^2.11.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-standard": "^4.0.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "bowser": "^2.11.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
